@@ -1,0 +1,15 @@
+{
+  "name": "agri-me-funcs",
+  "private": true,
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "serve": "node index.js"
+  },
+  "dependencies": {
+    "@aptos-labs/ts-sdk": "*",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "firebase-admin": "^12.7.0"
+  }
+}

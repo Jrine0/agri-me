@@ -1,0 +1,10 @@
+[package]
+name = "agri_me"
+version = "0.1.0"
+upgrade_policy = "compatible"
+
+[addresses]
+agri_me = "0xA11CE"
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework", rev = "mainnet" }
